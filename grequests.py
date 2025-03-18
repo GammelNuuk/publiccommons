@@ -3,8 +3,10 @@ import os
 
 def download(directory, filename):
     # The base URL of the image files in the GitHub repository
-    base_url = 'https://raw.githubusercontent.com/Denis2054/RAG-Driven-Generative-AI/main/'
-
+    # Example: base_url = 'https://raw.githubusercontent.com/Denis2054/RAG-Driven-Generative-AI/main/'
+    # Actual: https://github.com/GammelNuuk/publiccommons/blob/main/grequests.py
+    base_url = 'https://github.com/GammelNuuk/publiccommons/blob/main/'
+    
     # Complete URL for the file
     file_url = f"{base_url}{directory}/{filename}"
 
